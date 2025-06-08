@@ -1,10 +1,10 @@
 {
-  "name": "@davidburgos7/server-npm-find-package-info",
+  "name": "mcp-server-npm-package-info",
   "version": "1.0.0",
   "description": "MCP server for querying NPM package information using npm view command",
   "main": "dist/index.js",
   "bin": {
-    "server-npm-find-package-info": "dist/index.js"
+    "mcp-server-npm-package-info": "dist/index.js"
   },
   "scripts": {
     "build": "tsc",
@@ -17,9 +17,11 @@
     "npm",
     "package",
     "registry",
-    "model-context-protocol"
+    "model-context-protocol",
+    "mcp-server",
+    "npm-info"
   ],
-  "author": "David Burgos",
+  "author": "David Burgos <davidburgos.dev@gmail.com>",
   "license": "MIT",
   "files": [
     "dist/**/*",
