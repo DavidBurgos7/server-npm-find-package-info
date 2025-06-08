@@ -1,0 +1,48 @@
+{
+  "name": "@davidburgos7/server-npm-find-package-info",
+  "version": "1.0.0",
+  "description": "MCP server for querying NPM package information using npm view command",
+  "main": "dist/index.js",
+  "bin": {
+    "server-npm-find-package-info": "dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsx src/index.ts",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "mcp",
+    "server",
+    "npm",
+    "package",
+    "registry",
+    "model-context-protocol"
+  ],
+  "author": "David Burgos <your-email@example.com>",
+  "license": "MIT",
+  "files": [
+    "dist/**/*",
+    "README.md",
+    "package.json"
+  ],
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "tsx": "^4.0.0",
+    "typescript": "^5.0.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DavidBurgos7/server-npm-find-package-info.git"
+  },
+  "bugs": {
+    "url": "https://github.com/DavidBurgos7/server-npm-find-package-info/issues"
+  },
+  "homepage": "https://github.com/DavidBurgos7/server-npm-find-package-info#readme"
+}
