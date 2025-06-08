@@ -19,7 +19,7 @@
     "registry",
     "model-context-protocol"
   ],
-  "author": "David Burgos <your-email@example.com>",
+  "author": "David Burgos",
   "license": "MIT",
   "files": [
     "dist/**/*",
