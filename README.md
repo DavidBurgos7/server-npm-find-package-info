@@ -41,13 +41,13 @@ Search for NPM packages by keyword or name.
 ### Global Installation
 
 ```bash
-npm install -g @davidburgos7/server-npm-find-package-info
+npm install -g @imburgos7/server-npm-find-package-info
 ```
 
 ### Local Installation
 
 ```bash
-npm install @davidburgos7/server-npm-find-package-info
+npm install @imburgos7/server-npm-find-package-info
 ```
 
 ## Usage
@@ -66,7 +66,7 @@ Add the server to your Claude Desktop configuration file:
       "command": "npx",
       "args": [
         "-y",
-        "@davidburgos7/server-npm-find-package-info"
+        "@imburgos7/server-npm-find-package-info"
       ]
     }
   }
@@ -84,7 +84,7 @@ Add to your Cline MCP settings:
       "command": "npx",
       "args": [
         "-y",
-        "@davidburgos7/server-npm-find-package-info"
+        "@imburgos7/server-npm-find-package-info"
       ]
     }
   }
@@ -98,7 +98,7 @@ For any MCP-compatible client, use the following configuration:
 ```json
 {
   "command": "npx",
-  "args": ["-y", "@davidburgos7/server-npm-find-package-info"]
+  "args": ["-y", "@imburgos7/server-npm-find-package-info"]
 }
 ```
 
@@ -140,6 +140,11 @@ npm run dev
 ### Testing
 
 You can test the server using the MCP inspector or by integrating it with your preferred MCP client.
+
+```bash
+# Test with MCP Inspector
+npx @modelcontextprotocol/inspector node dist/index.js
+```
 
 ## Error Handling
 
